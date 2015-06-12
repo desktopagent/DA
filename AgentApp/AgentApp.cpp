@@ -439,6 +439,7 @@ DeviceDetails* ExposeDatatoUI(int *iSize)
 		devDetails[i].serialNo = "";	 
 		// to set the HS is default or not
 		devDetails[i].isDefault = ch->isDefault;
+		devDetails[i].iStrUSBHSPath = (ch->iStrUSBHSPath).c_str;
 	}
 
 	*iSize = size;

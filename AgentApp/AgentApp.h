@@ -80,6 +80,7 @@ extern "C"
 		char *firmwareVersion;
 		char *serialNo;
 		bool isDefault;
+		char* iStrUSBHSPath;
 	};		 	
 	
 	__declspec(dllexport) void GetEvents(WPARAM wParam, LPARAM lParam);
